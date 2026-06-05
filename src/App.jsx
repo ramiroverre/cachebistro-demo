@@ -493,16 +493,16 @@ function Ubicacion() {
           </h2>
 
           <div style={{ marginBottom: '2rem' }}>
-            <p style={{ fontFamily: "'Anton', sans-serif", fontSize: '0.82rem', letterSpacing: '0.22em', color: RED, marginBottom: '0.6rem' }}>HORARIOS</p>
+            <p style={{ fontFamily: "'Anton', sans-serif", fontSize: '0.82rem', letterSpacing: '0.22em', color: RED, marginBottom: '0.6rem' }}>DIRECCIÓN</p>
             <p style={{ fontFamily: "'Barlow', sans-serif", fontSize: '1.05rem', color: 'rgba(245,237,212,0.8)', lineHeight: 1.75 }}>
-              Lunes a Sábados<br />8:00 AM – 1:00 AM
+              Av. Emilio Civit 556<br />Mendoza, Argentina
             </p>
           </div>
 
           <div style={{ marginBottom: '3rem' }}>
-            <p style={{ fontFamily: "'Anton', sans-serif", fontSize: '0.82rem', letterSpacing: '0.22em', color: RED, marginBottom: '0.6rem' }}>CIUDAD</p>
+            <p style={{ fontFamily: "'Anton', sans-serif", fontSize: '0.82rem', letterSpacing: '0.22em', color: RED, marginBottom: '0.6rem' }}>HORARIOS</p>
             <p style={{ fontFamily: "'Barlow', sans-serif", fontSize: '1.05rem', color: 'rgba(245,237,212,0.8)', lineHeight: 1.75 }}>
-              Mendoza, Argentina
+              Lunes a Sábados<br />8:00 AM – 1:00 AM
             </p>
           </div>
 
@@ -528,7 +528,7 @@ function Ubicacion() {
       <div style={{ minHeight: '500px', position: 'relative' }}>
         <iframe
           title="Cache Bistro – Mendoza, Argentina"
-          src="https://maps.google.com/maps?q=Mendoza+Argentina+wine+bar&output=embed&z=14"
+          src="https://maps.google.com/maps?q=-32.8874217,-68.8580667&output=embed&z=16"
           style={{ width: '100%', height: '100%', minHeight: '500px', border: 'none', display: 'block', filter: 'grayscale(15%) contrast(1.05) brightness(0.92)' }}
           loading="lazy"
           allowFullScreen
