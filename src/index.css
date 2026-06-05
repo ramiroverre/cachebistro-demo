@@ -34,4 +34,7 @@ body {
   .hamburger-btn {
     display: flex !important;
   }
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }

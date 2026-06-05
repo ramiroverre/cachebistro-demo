@@ -411,7 +411,7 @@ function MenuGallery() {
           </div>
         </FadeUp>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1px', background: 'rgba(184,40,28,0.1)' }}>
+        <div className="menu-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1px', background: 'rgba(184,40,28,0.1)' }}>
           {items.map((item, i) => (
             <FadeUp key={item.num} delay={i * 0.07} style={{ height: '100%' }}>
               <motion.div
